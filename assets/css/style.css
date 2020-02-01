@@ -1,0 +1,47 @@
+.container{
+width: 980p;
+}
+.header{background-color: gray;
+color: white;
+text-align: center;
+}
+
+h1 {
+    background: #4aaaa5;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    float: right;
+}
+.About_btn {
+    float:left;
+}
+.Port_btn {
+    float:left;
+}
+.Con_btn {
+    float:left;
+}
+
+
+
+.Image {
+    float: left;
+}
+
+
+
+Teal color (used for headings and backgrounds): `#4aaaa5`
+   * Regular font color (used for paragraphs and all text besides the headings): `#777777`
+   * Main header background color: `#ffffff`
+   * Main header border color: `#cccccc`
+   * Footer background color: `#666666`
+   * Main content background color: `#ffffff`
+   * Main content border color: `#dddddd`
