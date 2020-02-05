@@ -1,9 +1,52 @@
-.container{
-width: 980p;
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    width: 100%;
+    height: 0px;
+    margin: 0px;
+    padding: 34px;
+    background: #ffffff;
+    border-top: 0px;
+    border-bottom: 2px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: #cccccc;
 }
-.header{background-color: gray;
-color: white;
-text-align: center;
+.test {
+    position: fixed;
+    top: 0;
+    right: 0;  
+    left: 0;
+    width: 960px;
+    height: 70px;
+    margin: 0 auto;
+}
+.main {
+    width: 960px;
+    height: auto;
+    padding: 0px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-color: #dddddd;
+    border-width: 1px;
+    border-style: solid;
+}
+.style_bar{
+    height: 30px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px;
+    padding-bottom: 4px;
+    border-color: #cccccc;
+    border-style: solid;
+}
+.container{
+    width: 100%;
 }
 
 h1 {
@@ -11,30 +54,91 @@ h1 {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     float: left;
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px; 
 }
 
+h2 {
+    float:left;
+    color: #4aaaa5;
+    margin: 0px;
+}
+h3{
+    float: right;
+    color: #cccccc;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background-image: url(/assets/images/Backing.png);
+    clear: both;
+    padding-top: 100px;
+}
+.content{
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
 }
 
-h3 {
-    float: right;
-}
 .About_btn {
-    float:left;
+    padding: 10px;
 }
+
 .Port_btn {
-    float:left;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 1px;
+    border-right: 1px;
+    border-style: solid;
+    border-color: #cccccc;
+    padding: 10px;
 }
+
 .Con_btn {
-    float:left;
+    padding: 10px;
 }
 
-
-
-.Image {
+#Image {
     float: left;
+    height: 25%;
+    width: 25%;
+    padding: 0px 20px 20px 0px;
 }
+.form-controlsubmit {
+    background: #4aaaa5;
+    color: white;
+} 
+.form-block {
+    float:left;
+    width: 100%;
+    resize: vertical;
+    box-sizing: border-box
+}
+#Name {
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+
+footer{
+    position: fixed;
+      bottom: 0;
+      right: 0;  
+      left: 0;
+      z-index: 1030;
+      width: 100%;
+      height: 5px;
+      margin-top: 30px;
+      padding: 50px;
+      background: #666666;
+      border-top: 5px;
+      border-bottom: 0px;
+      border-left: 0px;
+      border-right: 0px;
+      border-style: solid;
+      border-color: #4aaaa5;
+  }
 
 
 
