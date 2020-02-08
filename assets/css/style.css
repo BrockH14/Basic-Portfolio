@@ -8,7 +8,7 @@ nav {
     height: 0px;
     margin: 0px;
     padding: 37px;
-    background: #ffffff;
+    background-color: #ffffff;
     border-top: 0px;
     border-bottom: 2px;
     border-left: 0px;
@@ -32,7 +32,7 @@ nav {
     height: auto;
     margin: 0 auto;
     margin-bottom: 100px;
-    background: #ffffff;
+    background-color: #ffffff;
     border-color: #dddddd;
     border-width: 1px;
     border-style: solid;
@@ -52,12 +52,9 @@ nav {
 .Imgbox {
     height: auto;
 }
-.container{
-    width: 100%;
-}
 h1 {
     font-size: 30px;
-    background: #4aaaa5;
+    background-color: #4aaaa5;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     float: left;
@@ -72,7 +69,7 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 body {
-    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/what-the-hex.png");
+    background-image: url("../images/back.jpg");
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
     clear: both;
@@ -100,7 +97,6 @@ body {
 }
 .Con_btn {
     padding: 10px 0px 10px 15px;
-
 }
 #Image {
     float: left;
@@ -109,7 +105,7 @@ body {
     padding: 5px 20px 20px 0px;
 }
 .form-controlsubmit {
-    background: #4aaaa5;
+    background-color: #4aaaa5;
     color: white;
     padding: 8px 30px;
     margin: 10px 0px;
@@ -144,7 +140,7 @@ body {
     float: left;
 }
 .Textbar{
-    background: #4aaaa5;
+    background-color: #4aaaa5;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 22px;
@@ -170,7 +166,7 @@ footer{
       height: 20px;
       margin-top: 30px;
       padding: 20px;
-      background: #666666;
+      background-color: #666666;
       border-top: 5px;
       border-bottom: 0px;
       border-left: 0px;
