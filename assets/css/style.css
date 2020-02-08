@@ -7,7 +7,7 @@ nav {
     width: 100%;
     height: 0px;
     margin: 0px;
-    padding: 34px;
+    padding: 37px;
     background: #ffffff;
     border-top: 0px;
     border-bottom: 2px;
@@ -26,30 +26,39 @@ nav {
     margin: 0 auto;
 }
 .main {
+    position: relative;
+    left: 0;
     width: 960px;
     height: auto;
-    padding: 0px;
     margin: 0 auto;
+    margin-bottom: 100px;
     background: #ffffff;
     border-color: #dddddd;
     border-width: 1px;
     border-style: solid;
+
 }
 .style_bar{
-    height: 30px;
+    height: 70px;
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
     border-bottom: 2px;
     padding-bottom: 4px;
+    margin-left: 20px;
+    margin-right: 20px;
     border-color: #cccccc;
     border-style: solid;
+}
+.Imgbox {
+    height: auto;
 }
 .container{
     width: 100%;
 }
 
 h1 {
+    font-size: 30px;
     background: #4aaaa5;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -61,53 +70,57 @@ h1 {
 
 h2 {
     float:left;
+    font-size: 28px;
     color: #4aaaa5;
-    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-h3{
-    float: right;
-    color: #cccccc;
-}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
     background-image: url(/assets/images/Backing.png);
     clear: both;
     padding-top: 100px;
+    color: #777777;
+    margin: 0px;
 }
 .content{
     position: relative;
-    width: 960px;
-    margin: 0 auto;
+    width: auto;
+    margin: 20px;
+    line-height: 30px;
 }
 
 .About_btn {
-    padding: 10px;
+    padding: 10px 15px;
 }
 
 .Port_btn {
+    padding: 10px 15px;
     border-top: 0px;
     border-bottom: 0px;
     border-left: 1px;
     border-right: 1px;
     border-style: solid;
     border-color: #cccccc;
-    padding: 10px;
 }
 
 .Con_btn {
-    padding: 10px;
+    padding: 10px 0px 10px 15px;
+
 }
 
 #Image {
     float: left;
     height: 25%;
     width: 25%;
-    padding: 0px 20px 20px 0px;
+    padding: 5px 20px 20px 0px;
 }
 .form-controlsubmit {
     background: #4aaaa5;
     color: white;
+    padding: 8px 30px;
+    margin: 10px 0px;
 } 
 .form-block {
     float:left;
@@ -116,10 +129,49 @@ body {
     box-sizing: border-box
 }
 #Name {
-    resize: vertical;
-    box-sizing: border-box;
+    width: 910px;
+    padding: 10px 0px 10px 10px;
+}
+#Email {
+    width: 910px;
+    padding: 10px 0px 10px 10px;
+    }
+#message {
+    width: 910px;
+    padding: 10px 0px 10px 10px;
 }
 
+.zero{
+    margin: 10px 0px 0px 0px;
+    font-weight: bold;
+}
+
+.Pimage{
+    padding: 10px 50px 20px 0px;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    float: left;
+}
+
+.Textbar{
+    background: #4aaaa5;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    padding: 15px;
+    margin: 0px;
+    width: 270px;
+    float: left;
+    position: absolute;
+    bottom: 30px;
+    z-index: 1;
+    text-align: center;
+}
+
+.clearfix {
+    overflow: auto;
+  }
 
 footer{
     position: fixed;
@@ -128,9 +180,9 @@ footer{
       left: 0;
       z-index: 1030;
       width: 100%;
-      height: 5px;
+      height: 20px;
       margin-top: 30px;
-      padding: 50px;
+      padding: 20px;
       background: #666666;
       border-top: 5px;
       border-bottom: 0px;
@@ -138,7 +190,36 @@ footer{
       border-right: 0px;
       border-style: solid;
       border-color: #4aaaa5;
+      color: #cccccc;
+      text-align: center;
   }
+
+
+
+
+  ul {
+    list-style-type: none;
+    margin: 30px 0px;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+    font-size: 18px;
+  }
+  
+  li a {
+    text-align: center;
+    text-decoration: none;
+    color: #777777;
+  }
+  
+  li a:hover {
+    background-color: #cccccc;
+  }
+
+
 
 
 
